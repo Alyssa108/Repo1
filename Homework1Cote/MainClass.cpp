@@ -33,6 +33,6 @@ int main() {
 		cin >> stockValue;
 		printf("Total = $%.2f\n", totalValue(numShares, stockValue));
 		totalNumStocks++; //calc total num of stocks
-		portfolioValue += totalValue(numShares, stockValue); //calc total of portfolio
+		portfolioValue += totalValue(numShares, stockValue); //bwahahahaha! I changed this comment
 	}
 }
